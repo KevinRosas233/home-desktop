@@ -384,3 +384,176 @@ h4 {
     font-size: 16px;
     margin-bottom: 25px;
 }
+
+
+.logo-f {
+    width: 130px;
+    height: 30px;
+    margin-bottom: 22px;
+}
+
+.f-a {
+    display: inline-block;
+    font-size: 15px;
+    color: #8494a6;
+    font-weight: 700;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer-block p {
+    font-size: 14px;
+    margin-bottom: 22px;
+}
+
+.over-hid {
+    margin: -3px;
+    overflow: hidden;
+}
+
+.img-footer {
+    max-width: 125px;
+    height: 85px;
+    margin: 3px;
+}
+
+.fb {
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    position: relative;
+}
+
+.fb img {
+    position: absolute;
+    width: 9px;
+    height: 12px;
+    top: 5px;
+    left: 0;
+}
+
+.fb i {
+    position: absolute;
+    font-size: 14px;
+    color: #8494a6;
+    top: 6px;
+    left: 0;
+}
+form {
+    position: relative;
+}
+
+.in {
+    padding: 15px 90px 15px 10px;
+    border: none;
+    border-radius: 2px;
+    background: #4e5c6c;
+    height: 45px;
+    width: 100%;
+
+}
+
+.btn-footer {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 10px 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    border-radius: 3px;
+}
+
+.footer-navigation {
+    background: #283645;
+}
+
+.footer-nav-wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 35px 10px;
+    font-size: 0;
+}
+
+.footer-nav-wrapper span {
+    font-size: 14px;
+}
+
+.footer-nav {
+    float: right;
+}
+
+.footer-nav li {
+    display: inline;
+}
+
+.footer-nav li a {
+    position: relative;
+}
+
+.footer-nav li a:before {
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #8494a6;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.footer-nav li a {
+    font-size: 14px;
+    color: #8494a6;
+    padding: 0 10px;
+}
+
+@media (max-width: 1024px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .banner-content p {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 12px;
+        padding: 20px 55px;
+    }
+
+    .passion {
+        width: 31%;
+        margin-right: 2%;
+    }
+
+    .footer-block {
+        width: 44%;
+        margin: 0 3%;
+    }
+
+    .footer-block {
+        margin-bottom: 40px;
+    }
+
+    .btn-footer {
+        padding: 5px 5px;
+        top: 10px;
+    }
+
+}
+
+@media (max-width: 1023px) {
+    .navigation a {
+        padding: 2px 5px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .text p {
+        font-size: 20px;
+    }
+}
+
