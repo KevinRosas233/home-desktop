@@ -1,0 +1,47 @@
+<<<<<<< HEAD
+=======
+.conteiner{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	width: 100%;
+	height: 90px;
+	background: #f5f7fa
+}
+nav ul {
+	list-style: none; padding-left: 2;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	text-decoration: none; color: #626262; font-size: 15px; padding: 0px 15px;
+	border-right: 0px solid #626262; font-family: 'PT sans' sans-serif;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.texto-encima{
+    position: absolute;
+    top: 250px;
+    left: 400px;
+    font-size:70px;
+    color: #ffffff;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: #ffffff;
+}
+
+}
+#menu-cinco{
+	border: 1px; color: #CCC;
+	padding: 10px 10px;
+}
+>>>>>>> 5ac417bd925edc7b0dbb545918fc0be5fc2bf923
