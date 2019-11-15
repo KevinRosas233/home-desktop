@@ -335,19 +335,24 @@ h5 {
 
 .slick-dots {
     position: absolute;
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
     bottom: -45px;
 }
 
 .slick-dots li button {
     border: 1px solid #fff;
     border-radius: 50%;
-    width: 15px;
-    height: 15px;
+    width: 20px;
+    height: 20px;
+    padding: 2px 0px;
     background: #000000;
 }
     
 .slick-dots li.slick-active button {
-    background: #00e0d0;
+    background: #00e0d0;  
     border-color: #00e0d0;
 }   
 
