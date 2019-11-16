@@ -31,7 +31,7 @@ h2, h3, h4, h5 {
 }
 
 .info {
-    background: #ccc;
+    background: #f5f7fa;
 }
 
 .info-icon {
@@ -335,7 +335,7 @@ h5 {
 
 .slick-dots {
     position: absolute;
-    margin-left: 567px;
+    margin-left: 570px;
     width: 20px;
     height: 20px;
     display: inline-block;
